@@ -145,8 +145,8 @@ h6 {
  
 
   .primero{
-    padding: 12px;
-    margin: 12px;
+    padding: 20px;
+    margin: 20px;
     font-size: 20px;
     color:rgb(235, 243, 242);    
     font-weight: normal;
@@ -329,8 +329,10 @@ h6 {
 
 .contenedor-portada-web{
    
-  display:block;
-  justify-content: center;
+  display:flex;
+  flex-direction: column;
+
+ 
   align-items: center;
   width: 100vw;
   height: 100vh;
@@ -343,31 +345,29 @@ h6 {
 }
 
 .primero{
-  padding: 3%;
-  margin: 12px;
-  font-size: 16px;
+ 
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
   color:rgb(235, 243, 242);    
   font-weight: normal;
+  width: 80%;
 }
 
-.centrado .imagenPrincipal{
- display:none;
-     
-}
+
 
 .segundo{
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 3%;
-    font-size: 16px;
+   
+    
+    
+ 
+    width: 80%;
+    padding: 10px;
+    font-size: 20px;
     color:rgb(235, 243, 242);    
     font-weight: normal;
-    margin-top: 1%;
-    position: absolute;
-    bottom: 0;
+    margin: 10px;
+   
     
     
   }
